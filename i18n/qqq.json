@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": []
+	},
+	"subpagewatchlist-desc": "Description for Special:Version",
+	"tog-watchlisthidesubpage": "[[Special:Preferences]], tab 'Watchlist'. Offers user to add deleted pages to watchlist. {{Gender}}",
+	"subpagewatchlist-rchidesubpage": "Message to trigger option in Special:Watchlist"
+}

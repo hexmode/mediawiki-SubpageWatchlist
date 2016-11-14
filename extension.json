@@ -1,0 +1,33 @@
+{
+	"name": "SubpageWatchlist",
+	"version": "0.1.0",
+	"license-name": "GPL-3.0",
+	"author": [
+		"[https://mediawiki.org/wiki/User:Bawolff Brian Wolff]",
+		"[http://mwstake.org Mark A. Hershberger]"
+	],
+	"require": [ "1.26" ],
+	"url": "https://www.mediawiki.org/wiki/Extension:SubpageWatchlist",
+	"descriptionmsg": "subpagewatchlist-desc",
+	"type": "specialpage",
+	"MessagesDirs": {
+		"SubpageWatchlist": [
+			"i18n"
+		]
+	},
+	"AutoloadClasses": {
+		"SubpageWatchlist\\Hooks": "src/Hooks.php"
+	},
+	"Hooks": {
+		"SpecialWatchlistFilters": [
+			"SubpageWatchlist\\Hooks::onSpecialWatchlistFilters"
+		],
+		"SpecialWatchlistQuery": [
+			"SubpageWatchlist\\Hooks::onSpecialWatchlistQuery"
+		],
+		"GetPreferences": [
+			"SubpageWatchlist\\Hooks::onGetPreferences"
+		]
+	},
+	"manifest_version": 1
+}

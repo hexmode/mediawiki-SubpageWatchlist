@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": []
+	},
+	"subpagewatchlist-desc": "Adds option to include subpages of watched pages in Special:Watchlist.",
+	"tog-watchlisthidesubpage": "Hide subpages from the watchlist",
+	"subpagewatchlist-rchidesubpage": "$1 subpages"
+}
